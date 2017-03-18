@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - block
+  - platform
+  - ground
+  - bossKiller
+  - playerkiller
+  - boss
   layers:
   - Default
   - TransparentFX

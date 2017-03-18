@@ -3,10 +3,12 @@
 public class Controller : MonoBehaviour
 {
     public float MaxSpeed = 10.0f;
-    public float JumpModifier = 5.0f;
+    public float JumpModifierY = 5.0f;
+	public float JumpModifierX = 0.0f;
     private float horizontalInput;
     private Rigidbody2D rigidbody2D;
     private bool jumpButtonPressed;
+	private bool canJump = true;
 
     // Use this for initialization
 	private void Start ()
@@ -29,11 +31,35 @@ public class Controller : MonoBehaviour
         var moveSpeed = new Vector2(speed, this.rigidbody2D.velocity.y);
         this.rigidbody2D.velocity = moveSpeed;
 
-        if(this.jumpButtonPressed)
+		if(this.jumpButtonPressed && this.canJump)
         {
-            var jumpForce = new Vector2(0, this.JumpModifier);
-
+			var jumpForce = new Vector2(this.JumpModifierX, this.JumpModifierY);
             this.rigidbody2D.AddForce(jumpForce, ForceMode2D.Impulse);
         }
     }
+
+	void OnTriggerEnter2D(Collider2D other) {
+		switch (other.tag) {
+			case "Enemy":
+				Destroy(other.gameObject);
+				break;
+			case "block":
+			case "ground":
+				canJump = true;
+				break;
+			default:
+				break;
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D other){
+		switch (other.tag) {
+			case "block":
+			case "ground":
+				canJump = false;
+				break;
+			default:
+				break;
+		}
+	}
 }
