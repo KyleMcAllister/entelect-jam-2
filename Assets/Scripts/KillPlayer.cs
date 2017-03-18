@@ -13,7 +13,7 @@ public class KillPlayer : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other) {
 		if(other.gameObject.tag.Equals("Player")){
-			Destroy(other.gameObject);
+			//Destroy(other.gameObject);
 			loseImage.SetActive(true);
 		}
 	}

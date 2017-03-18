@@ -10,6 +10,11 @@ public class Controller : MonoBehaviour
     private bool jumpButtonPressed;
 	private bool canJump = true;
 
+	public SpriteRenderer spriteRenderer;
+
+	public Sprite jumpSprite;
+	public Sprite nonJumpSprite;
+
     // Use this for initialization
 	private void Start ()
 	{
@@ -36,6 +41,20 @@ public class Controller : MonoBehaviour
 			var jumpForce = new Vector2(this.JumpModifierX, this.JumpModifierY);
             this.rigidbody2D.AddForce(jumpForce, ForceMode2D.Impulse);
         }
+
+		if (this.horizontalInput > 0) {
+			this.spriteRenderer.flipX = false;
+		} else if (this.horizontalInput == 0) {
+		}
+		else {
+			this.spriteRenderer.flipX = true;
+		}
+
+		if (!canJump) {
+			this.spriteRenderer.sprite = jumpSprite;
+		} else {
+			this.spriteRenderer.sprite = nonJumpSprite;
+		}
     }
 
 	void OnTriggerEnter2D(Collider2D other) {

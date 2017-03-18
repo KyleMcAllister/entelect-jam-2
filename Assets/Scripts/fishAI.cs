@@ -12,6 +12,8 @@ public class fishAI : MonoBehaviour {
 
 	public int numberOfTurnsBeforeMove;
 
+	public SpriteRenderer spriteRenderer;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -27,6 +29,13 @@ public class fishAI : MonoBehaviour {
 				moveSpeed *= -1;
 			}
 			transform.Translate (new Vector3 (moveSpeed, 0, 0) * Time.deltaTime);
+
+			if (this.moveSpeed > 0) {
+				this.spriteRenderer.flipX = false;
+			} else if (this.moveSpeed < 0) {
+				this.spriteRenderer.flipX = true;
+			} else {
+			}
 		} 
 		else {
 			numberOfTurnsPassed++;

@@ -6,6 +6,8 @@ public class EnemyAI : MonoBehaviour {
 
 	public float moveSpeed;
 
+	public SpriteRenderer spriteRenderer;
+
 	// Use this for initialization
 	void Start () {
 	}
@@ -23,5 +25,13 @@ public class EnemyAI : MonoBehaviour {
 		if(col.gameObject.tag == "block" || col.gameObject.tag == "Enemy"){
 			this.moveSpeed *= -1;
 		}
+
+		if (this.moveSpeed > 0) {
+			this.spriteRenderer.flipX = false;
+		} else if (this.moveSpeed < 0) {
+			this.spriteRenderer.flipX = true;
+		} else {
+		}
+		
 	}
 }

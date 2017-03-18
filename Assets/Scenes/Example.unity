@@ -718,7 +718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &149887532
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!61 &153923333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &473744196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &527693627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1001 &554846785
 Prefab:
   m_ObjectHideFlags: 0
@@ -2344,7 +2344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &679970544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,7 +2810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &834269789 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1079355280714880, guid: e71c650203d3eab4787b06bc58652a19,
@@ -3156,7 +3156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1001 &932551332
 Prefab:
   m_ObjectHideFlags: 0
@@ -3312,7 +3312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &940283127 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1465916350598964, guid: 2718db50014bcb74cad2f047117ab670,
@@ -3714,7 +3714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &1093459276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4043,7 +4043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &1186012594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,7 +4510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &1332277675
 GameObject:
   m_ObjectHideFlags: 0
@@ -5206,7 +5206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &1511685527
 GameObject:
   m_ObjectHideFlags: 0
@@ -5553,7 +5553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bbce3bbeac96945814060f47892732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseImage: {fileID: 0}
+  loseImage: {fileID: 920563302}
 --- !u!1 &1540986429 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1198030944575056, guid: 7978d98a679ac074b8b205d0165cab50,
